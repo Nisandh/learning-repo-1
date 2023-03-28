@@ -1,0 +1,12 @@
+#!/bin/bash 
+
+counter=0;
+
+Fruits[((counter++))]="Apple"
+Fruits[((counter++))]="Banana"
+Fruits[((counter++))]="Orange"
+Fruits[((counter++))]="Grapes"
+Fruits[((counter++))]="GreenApple"
+
+echo ${Fruits[@]}
+
